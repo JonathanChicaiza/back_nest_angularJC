@@ -10,7 +10,7 @@ git init
 (GITHUB)
 ````
 git remote add origin
-https://github.com/landerz180603/back_nest_angularPG.git
+https://github.com/JonathanChicaiza/back_nest_angularJC.git
 ````
 ## Validar referencia
 

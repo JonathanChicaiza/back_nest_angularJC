@@ -2,9 +2,9 @@ POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
 {
-    "name": "Paul",
-    "email": "paulgallo@gmail.com",
-    "password": "123456789paul"
+    "name": "Jonathan",
+    "email": "jonathanfr@gmail.com",
+    "password": "1234567"
 }
 
 ### login sin conexion a la base de datos
@@ -13,9 +13,9 @@ POST http://127.0.0.1:3000/auth/login
 Content-Type: application/json
 
 {
-    "name": "Andres",
-    "email": "andreserazo@gmail.com",
-    "password": "123456789paul"
+    "name": "josesito",
+    "email": "josesito@gmail.com",
+    "password": "234234"
 }
 ### Users
 
