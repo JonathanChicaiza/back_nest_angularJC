@@ -1,7 +1,7 @@
 export enum Configuration {
-  PORT = 'PORT',
-  DB_HOST = 'HOST',
-  DB_USERNAME = 'USERNAME',
-  DB_PASSWORD = 'PASSWORD',
-  DB_NAME = 'DATABASE',
+    PORT = 'PORT',
+    HOST = 'HOST',
+    USERNAME = 'USERNAME',
+    PASSWORD = 'PASSWORD',
+    DATABASE = 'DATABASE'
 }

@@ -2,22 +2,24 @@ POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
 {
-    "name": "Jonathan",
-    "email": "jonathanfr@gmail.com",
-    "password": "1234567"
+    "name": "Jonathan Chicaiza",
+    "email": "jonathann@yavi.com",
+    "password": "12222"
 }
 
-### login sin conexion a la base de datos
-
+### login sin conexion a DB
 POST http://127.0.0.1:3000/auth/login
 Content-Type: application/json
 
 {
-    "name": "josesito",
-    "email": "josesito@gmail.com",
-    "password": "234234"
+    "name": "Jonathan Chicaiza",
+    "email": "jonathann@yavi.com",
+    "password": "12222"
 }
-### Users
 
+### users
 GET http://127.0.0.1:3000/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxnYWxsb0BnbWFpbC5jb20iLCJpZCI6MSwiaWF0IjoxNzU5NzI4MjYzLCJleHAiOjE3NTk3MzE4NjN9.kyTmvIbkG1t7JSf6ByhHEyg9xC8C2k0WFwTyMxh1oVc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRvbnlAeWF2aS5jb20iLCJpZCI6MSwiaWF0IjoxNzY0MTI4ODMyLCJleHAiOjE3NjQxMzI0MzJ9.0-lS3a1_m-3r-b2Dxv_PWpPe3CYL7XSGvTvYWxvpbJ
+
+
+

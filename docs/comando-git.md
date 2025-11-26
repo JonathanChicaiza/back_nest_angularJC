@@ -1,34 +1,29 @@
 # Comandos GitHub
-Referencia del repositorio local con el repositorio remoto (GITHUB)
-git remote add origin https://github.com/landerz180603/back_nest_angularPG.git
 
-# Ininiar el repositorio local
+# Iniciar el repositorio local
+
 ```
 git init
 ```
-- Referencia del repositorio local con el repositorio remoto 
-(GITHUB)
-````
+
+Referencia del repositorio local con el repositorio remoto (GITHUB)
+
+```
 git remote add origin
 https://github.com/JonathanChicaiza/back_nest_angularJC.git
-````
-## Validar referencia
-
 ```
+
+# Validar referencias
+
+`````
 git remote -v
+````
+
+-----------------
 ```
 
-## Subir cambios
-
-```
 git add .
-git commit -m "proyecto base"
-git push origin master
+git commit -m "proyecto bases"
+git put origin master
 ```
-
-- Para forzar
-
-```
-git push -f origin master
-```
-
+`````
